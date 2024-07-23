@@ -28,7 +28,7 @@ def upload_file():
     engine.setProperty("rate", 150)
     engine.save_to_file(text, "audio.mp3")
     engine.runAndWait()
-    info_label = Label(text="DOWNLOADED\nOpen 'audio.mp3' file to listen.", font=("Arial", 18), bg="skyblue")
+    info_label = Label(text="DOWNLOADED!\nOpen 'audio.mp3' file to listen.", font=("Arial", 18), bg="skyblue")
     info_label.pack(pady=50)
 
 
